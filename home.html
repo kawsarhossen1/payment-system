@@ -35,8 +35,9 @@
 
             <!-- user action button -->
             <div>
-              <button id="show-add-money-btn" class="btn btn-lg">Add Money</button>
+              <button id="show-add-money-btn" class="btn btn-lg ml-2">Add Money</button>
               <button id="show-cash-out-btn" class="btn btn-lg">Cash Out</button>
+              <button id="show-transaction-btn" class="btn btn-lg mt-2 ml-2">Transaction History</button>
             </div>
             <div class="divider"></div>
 
@@ -120,12 +121,22 @@
                 </div>
               </form>
             </div>
+
+            <!-- transaction history -->
+             <div id="transaction-section" class="hidden">
+                <h2 class="text-3xl text-center">Transaction History</h2>
+                <div id="transaction-container" class="space-y-3">
+
+                </div>
+             </div>
           </div>
         </div>
       </div>
     </main>
 
-    <script src="./JS/home.js"></script>
+    <script src="./JS/add-money.js"></script>
+    <script src="./JS/comon-share-file.js"></script>
+    <!-- <script src="./JS/home.js"></script> -->
     <script src="./JS/cash-out.js"></script>
     <script src="./JS/feature.js"></script>
   </body>
