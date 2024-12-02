@@ -47,7 +47,7 @@
                   <label class="label">
                     <span class="label-text font-bold">Amount</span>
                   </label>
-                  <input
+                  <input id="input-add-money"
                     type="text"
                     placeholder="Enter Amount"
                     class="input input-bordered"
@@ -58,20 +58,18 @@
                   <label class="label">
                     <span class="label-text font-bold">Pin</span>
                   </label>
-                  <input
+                  <input id="pin-number-input"
                     type="password"
                     placeholder="Enter 4 Digit Pin"
-                    class="input input-bordered" autocomplete="off"
+                    class="input input-bordered"
+                    autocomplete="off"
                     required
                   />
-                  <!-- <label class="label">
-                    <a href="#" class="label-text-alt link link-hover"
-                      >Forgot password?</a
-                    >
-                  </label> -->
                 </div>
                 <div class="form-control mt-6">
-                  <button class="btn btn-primary text-white font-bold">Add Money</button>
+                  <button id="add-money-btn" class="btn btn-primary text-white font-bold">
+                    Add Money
+                  </button>
                 </div>
               </form>
             </div>
