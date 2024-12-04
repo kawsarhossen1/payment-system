@@ -2,13 +2,14 @@ document
   .getElementById("add-money-btn")
   .addEventListener("click", function (event) {
     event.preventDefault();
+  
 
     const addMoney = getInputFieldValueById("input-add-money");
     const pinNumber = getInputFieldValueById("pin-number-input");
 
-    if(isNaN(addMoney)){
-        alert('Failed to add money');
-        return;
+    if (isNaN(addMoney)) {
+      alert("Failed to add money");
+      return;
     }
 
     // wrong way to this process verify the pin
@@ -29,4 +30,5 @@ document
     } else {
       alert("Failed to add money.");
     }
+    
   });

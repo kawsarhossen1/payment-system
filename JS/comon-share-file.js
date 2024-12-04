@@ -20,15 +20,12 @@ function getTextFieldValueById(id) {
 }
 
 function showSectionById(id) {
-
-    // hide all the section
+  // hide all the section
   document.getElementById("add-money-form").classList.add("hidden");
   document.getElementById("cash-out-form").classList.add("hidden");
   document.getElementById("transaction-section").classList.add("hidden");
 
-//    show the section with the provide id as a parameter
+  //    show the section with the provide id as a parameter
 
-document.getElementById(id).classList.remove('hidden');
+  document.getElementById(id).classList.remove("hidden");
 }
-
-
